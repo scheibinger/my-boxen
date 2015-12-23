@@ -1,6 +1,4 @@
 class people::scheibinger {
-  include spotify
-  include atom
-
-  $home     = "/Users/${::boxen_user}"
+  include people::scheibinger::preferences
+  include people::scheibinger::applications
 }
