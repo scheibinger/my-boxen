@@ -1,5 +1,7 @@
 class people::scheibinger::applications {
   package { 'evernote': provider => 'brewcask' }
+  package { 'tig': }
+  package { 'maven': }
 
   include spotify
   include iterm2::stable

@@ -4,7 +4,7 @@ class people::scheibinger::preferences{
   include osx::global::disable_autocorrect
 
   class { 'osx::dock::icon_size':
-      size => 20
+      size => 36
       }
 
   class { 'osx::global::key_repeat_delay':
