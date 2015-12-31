@@ -1,0 +1,13 @@
+# Keep Docker up-to-date
+docker::compose::version: "1.5.2"
+docker::engine::version: "1.9.1"
+docker::machine::version: "0.5.5"
+docker::swarm::version: "1.0.1"
+
+# The name of the local VM
+docker::machinename: "dev"
+
+# Where to store the configuration and virtual machines
+docker::configdir: "%{::boxen::config::configdir}/docker"
+docker::datadir: "%{::boxen::config::datadir}/docker"
+docker::logdir: "%{::boxen::config::logdir}/docker"
